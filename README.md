@@ -1,21 +1,22 @@
-# mbed-server-withPIR
+# mbed-os-example-server-withTempHum
 
-This is a simple webapp for mbed server meant to be paired with the [mbed-client-withPIR](https://github.com/MaggieMei/mbed-client-withPIR) application. The goal of this application is to get the user up and running, using the mbed-connector-python package and talking to devices through mbed Device Connector in under 5 min, 5 steps or less. 
+This is a simple webapp for mbed server meant to be paired with the [mbed-os-example-client-withTempHum](https://github.com/MaggieMei/mbed-os-example-client-withTempHum) application. The goal of this application is to get the user up and running, using the mbed-connector-python package and talking to devices through mbed Device Connector in under 5 min, 5 steps or less. 
 
 If you are not familiar with the mbed connector api, we recommend that you read the [mbed-connector-api-python](https://github.com/armmbed/mbed-connector-api-python) first.
 
 ### Pre-requisites
 - A [mbed connector](https://connector.mbed.com) account and have generated an [API token](https://connector.mbed.com/#accesskeys)
-- An endpoint with PIR sensor running the [mbed-client-withPIR](https://github.com/MaggieMei/mbed-client-withPIR)
-- Install the required packages `pip install -r requirements.txt`
+- An endpoint with Grove Temperature & Humidity Sensor running the [mbed-os-example-client-withTempHum](https://github.com/MaggieMei/ mbed-os-example-client-withTempHum)
+- Install the required packages `sudo pip install -r requirements.txt`
 
 ### Use
 1. Put your [API key](https://connector.mbed.com/#accesskeys) into the app.py file, replace the following text
     ```python
     token = "Change Me" # replace with your API token
     ```
-    or set an evironment variable called `ACCESS_KEY` with the value of your API key
-2. Run the `app.py` file
+or set an evironment variable called `ACCESS_KEY` with the value of your API key
+2. Start mysql service by running ` sudo service mysql start `
+3. Run the `app.py` file
 ```python
 python ./app.py
 ```
