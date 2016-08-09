@@ -22,7 +22,7 @@ python ./app.py
 ```
 3. Open a web page to the web.py server. Usually [//localhost:8080](//localhost:8080) will work. 
 
-    ![web page](web.PNG)
+    ![web page](web1.JPG)
 
 4. Interact with the web page, blink the LED's, control the sensor, subscribe to the resources, click the button on the board, keep the PIR sensor working and see the numbers tick up on the web app.
 5. Modify : go checkout the API for the [mbed-connector-api-python library](https://docs.mbed.com/docs/mbed-connector-api-python/en/latest/) and make your own applications!
