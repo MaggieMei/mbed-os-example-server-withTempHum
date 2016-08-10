@@ -24,8 +24,10 @@ python ./app.py
 
     ![web page](web1.JPG)
 
-4. Interact with the web page, blink the LED's, control the sensor, subscribe to the resources, click the button on the board, keep the PIR sensor working and see the numbers tick up on the web app.
-5. Modify : go checkout the API for the [mbed-connector-api-python library](https://docs.mbed.com/docs/mbed-connector-api-python/en/latest/) and make your own applications!
+4. Interact with the web page
+- Click at the `GET` button under the `Presses` field, you will see the number of button 2 pressed on the board. When `Subscribe` is chosen, the number will update automatically without click any more.
+- Value of current temperature will be displayed in the `Current Temperatue` field. It keeps updating every two seconds. Temperature Curves can also be obtained for the allotted time. After setting the date-time and clicking the `GET` button, a new file named Temperature.png will be generated under the same directory. The button `Restart Temperature Detection` is used for clear all the temperature data stored and start detection again. By default, the data will be cleared every 24 hours.
+- Operation for `Current Humidity` field is just the same as above.s!
 
 
 ## Troubleshooting
