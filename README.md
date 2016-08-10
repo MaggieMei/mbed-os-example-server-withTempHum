@@ -24,10 +24,9 @@ python ./app.py
 
     ![web page](web1.JPG)
 
-4. Interact with the web page
-- Click at the `GET` button under the `Presses` field, you will see the number of button 2 pressed on the board. When `Subscribe` is chosen, the number will update automatically without click any more.
-- Value of current temperature will be displayed in the `Current Temperatue` field. It keeps updating every two seconds. Temperature Curves can also be obtained for the allotted time. After setting the date-time and clicking the `GET` button, a new file named Temperature.png will be generated under the same directory. The button `Restart Temperature Detection` is used for clear all the temperature data stored and start detection again. By default, the data will be cleared every 24 hours.
-- Operation for `Current Humidity` field is just the same as above.s!
+4. Click at the `GET` button under the `Presses` field, you will see the number of button 2 pressed on the board. When `Subscribe` is chosen, the number will update automatically without click any more.
+5. Value of current temperature will be displayed in the `Current Temperatue` field. It keeps updating every two seconds. Temperature Curves can also be obtained for the allotted time. After setting the date-time and clicking the `GET` button, a new file named Temperature.png will be generated under the same directory. The button `Restart Temperature Detection` is used for clear all the temperature data stored and start detection again. By default, the data will be cleared every 24 hours.
+6. Operation for `Current Humidity` field is just the same as above!
 
 
 ## Troubleshooting
